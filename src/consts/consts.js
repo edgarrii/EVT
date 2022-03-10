@@ -1,5 +1,3 @@
-import { dataWithCars } from "../data/data";
-
 export const listOfLinksForHeader = [
   "Автомобили",
   "Продукты",
