@@ -45,7 +45,7 @@ export const dataWithCars = [
   //   description:
   //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, quasi?",
   //   previewImg: previewCarThird,
-  //   mainImg: mainImgFirst,
+  //   mainImg: mainImg718,
   //   price: "199900$",
   // },
   // {
@@ -54,7 +54,7 @@ export const dataWithCars = [
   //   description:
   //     "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam, quasi?",
   //   previewImg: previewCarThird,
-  //   mainImg: mainImgFirst,
+  //   mainImg: mainImg911,
   //   price: "199900$",
   // },
 ];

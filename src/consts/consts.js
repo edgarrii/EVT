@@ -2,7 +2,7 @@ export const listOfLinksForHeader = [
   "Автомобили",
   "Продукты",
   "Дилеры",
-  "Кабинет Пользователя",
+  "Кабинет пользователя",
 ];
 
 export const listOfLinksForFooter = [
