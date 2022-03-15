@@ -9,7 +9,6 @@ import "./styles.scss";
 
 export const Header = () => {
   const navigate = useNavigate();
-  const { pathname } = useLocation();
   const [isOpen, setIsOpen] = useState(false);
 
   const handleClickBurger = () => {
