@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import headerLogo from "../../assets/header-logo.png";
 import { listOfLinksForHeader, paths } from "../../consts/consts";
