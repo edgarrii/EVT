@@ -1,0 +1,85 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 520px;
+  max-height: 601px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
+  background-color: #ffffff;
+  padding: 17px 16px 56px;
+  margin-bottom: 20px;
+
+  & > .imageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 520px;
+    height: 30vh;
+
+    & > img {
+      max-width: 100%;
+    }
+  }
+
+  & > h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 42px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  & > p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 59px;
+  }
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card:not(:last-child) {
+  margin-right: 50px;
+}
+
+.buttonsWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  & > button:first-child {
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .card:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .card:first-child {
+    margin-top: 15px;
+  }
+
+  .card:last-child {
+    margin-bottom: 15px;
+  }
+
+  .buttonsWrapper > button {
+    font-size: 16px;
+  }
+
+  .card {
+    padding-bottom: 30px;
+  }
+}

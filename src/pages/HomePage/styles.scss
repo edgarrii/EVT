@@ -1,0 +1,11 @@
+.cardsWrapper {
+  padding: 40px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+  @media only screen and (max-width: 400px) {
+    padding: 5px 20px;
+  }
+}
